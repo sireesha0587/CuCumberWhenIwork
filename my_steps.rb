@@ -20,9 +20,7 @@ And(/^user navigated to Employees page$/) do
   pending
 end
 
-And(/^user clicks "([^"]*)"$/) do
-  pending
-end
+And(/^user clicks "([^"]*)"$/) { pending }
 
 And(/^user Enters the following Details$/) do |_|
   # table is a table.hashes.keys # => [:FirstName, :Samantha]
